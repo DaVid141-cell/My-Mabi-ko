@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        body {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 20px;
+        background-image: url('wa.jpg'); 
+        background-size: 30%; 
+        background-position: center; 
+        font-family: Arial, sans-serif;
+        box-sizing: border-box;
+        }
+
+        .picture {
+        position: absolute;
+        border: 2px splid rgb(0, 0, 0);
+        width: 100px;
+        height: 150px;
+        }
+
+
+        img {
+        width: 125%;
+        height: 125%;
+        object-fit: cover;
+        border-radius: 25% 10% ;
+       
+        }
+
+
+        .middle{
+            position: absolute;
+            top: 40%;
+            left: 36%;
+        }
+
+
+        .top-center {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+
+        .bottom-center {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+
+        .left-center {
+        top: 70%;
+        left: 0;
+        transform: translateY(-75%);
+        }
+
+        .right-center {
+        top: 70%;
+        right: 0;
+        transform: translateY(-75%);
+        }
+        .right-top-center {
+        top: 30%;
+        right: 0;
+        transform: translateY(-25%);
+        }
+        .left-top-center {
+        top: 30%;
+        left: 0;
+        transform: translateY(-25%);
+        }
+
+
+    </style> 
+</head> 
+<body>
+    <div class="wrapper"> 
+        <audio autoplay>
+            <source src="meow.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    <div class="picture center middle"><img src="ay.jpg" alt="middle">
+    </div>
+    <div class="picture side top-center"><img src="pak1.jpg" alt="Top Center">
+    </div>
+    <div class="picture side left-center"><img src="pak2.jpg" alt="Left Center">
+    </div>
+    <div class="picture side right-center"><img src="pak3.jpg" alt="Right Center">
+    </div>
+    <div class="picture side bottom-center"><img src="pak4.jpg" alt="Bottom Center">
+    </div>
+    <div class="picture side left-top-center"><img src="pak5.jpg" alt="Left Top Center">
+    </div>
+    <div class="picture side right-top-center"><img src="pak8.jpg" alt="Right Top Center">
+    </div>
+</div>
+</body>
+</html>
